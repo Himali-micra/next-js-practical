@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar {
+  overflow-x: hidden
+}
+
+body {
+  background-color: black;
+}
+
+@layer base {
+  h1 {
+    @apply xl:text-4xl sm:text-xl font-semibold text-blue-600;
+  }
+
+  h2 {
+    @apply xl:text-2xl sm:text-lg font-semibold text-orange-600;
+  }
+
+  .showButton {
+    @apply p-2 cursor-pointer rounded-lg border-2 border-orange-300;
+  }
+}
+
+
+
+/* header menu */
+@media screen and (max-width: 780px) {
+  .mobileView-navbar-btn {
+    z-index: 60;
+  }
+
+  .mobileView-navbar-btn .menu-outline {
+    display: block;
+  }
+
+  .mobileView-navbar-btn.active .menu-outline {
+    display: none;
+  }
+
+  .mobileView-navbar-btn .close-outline {
+    display: none;
+  }
+
+  .mobileView-navbar-btn.active .close-outline {
+    display: block;
+  }
+}

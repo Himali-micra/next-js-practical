@@ -1,0 +1,43 @@
+basic learn to next js below topics
+-> client side and server side component rendering,
+-> Link and navigation,
+-> basic routing,nested routing(using userRouter)
+-> project structure,
+-> inner component,
+-> comman layout,
+-> events
+
+
+4th april-2024
+-> conditional Routing (using usePathname),
+-> Dyanmic Routing,
+-> catch all segment
+
+6th April 2024
+work Update::
+------------------------------------
+DoorLight::
+ 1. home page
+    -> Done home page design with responsive
+
+    
+10th April 2024 
+work Update::
+------------------------------------
+1.api calling using server side rendering in practical
+2. use client components with server component in practical
+3. style with next js using tailwind css (global css)
+4. make a comman component in tailwind css (@apply,@layer)
+5.SEO topics:
+   -> what is SEO
+   -> type of SEO (on page-off page)
+   -> crawling,Indexing
+   -> Techniquies of SEO 
+   
+
+11th April 2024
+
+   1. css modules like (custom.module.css)
+   2.Image Optimization
+   3.font Optimization
+   4.generateMetadata for Dynamic meta data 
