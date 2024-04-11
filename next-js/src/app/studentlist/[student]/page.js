@@ -16,4 +16,3 @@ export default function Student({ params, query }) {
     </main>
   );
 }
-

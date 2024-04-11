@@ -12,11 +12,12 @@ const AboutStudent = async () => {
   let student = await studentlist();
   // console.log(student, "student");
   return (
-    <div>
+    <div className="container mt-4">
       <h1>About Page for Student</h1>
       {student.users?.map((item, index) => (
         <>
-          <p key={index}>UserName: {item.username}</p>
+          <p key={index}>Id: {item.id}</p>
+          <p>UserName: {item.username}</p>
           {/* client side rendering */}
           <UserDetail Age={item.age} />
         </>

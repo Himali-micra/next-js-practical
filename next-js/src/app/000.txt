@@ -41,3 +41,7 @@ work Update::
    2.Image Optimization
    3.font Optimization
    4.generateMetadata for Dynamic meta data 
+   5.script component (for example location permission)
+   6.Loader,static assets
+   7.producation,development build
+   8. git desktop through add,commit,push

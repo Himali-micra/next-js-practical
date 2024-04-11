@@ -21,7 +21,7 @@ export default function Home() {
         Go to About Page
       </Link>
       <br />
-      <br />
+
       <button
         className="md:w-[196px] md:py-4 py-[11px] border px-5 w-full border-blue-400  text-blue-500 font-semibold rounded-lg md:text-sm text-sm_18 sm:hover:shadow-[0px_4px_9px_0px_#FF4E0033]
                     sm:hover:bg-blue-500 transition-all ease-in-out duration-500 sm:hover:text-white mb-5"
