@@ -36,7 +36,6 @@ work Update::
    
 
 11th April 2024
-
 work Update::
 ------------------------------------
 I have learn below topics
@@ -49,3 +48,10 @@ I have learn below topics
    7.producation,development build
    8.static Html page build
    9.git desktop through add,commit,push,marge branch
+
+12th April 2024
+work Update::
+------------------------------------
+1. Static side Generation 
+2. redirects (next.config.mjs)
+3. Environment

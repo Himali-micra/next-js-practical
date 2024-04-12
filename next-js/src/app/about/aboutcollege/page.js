@@ -5,6 +5,7 @@ import Image from "next/image";
 
 // useState through color change
 const AboutCollege = () => {
+
   const [setgreen, setColorGreen] = useState(true);
 
   const togglecolor = () => {

@@ -10,6 +10,13 @@ const Login = () => {
   };
   return (
     <>
+      {/* check development and Production */}
+      {process.env.NODE_ENV == "development" ? (
+        <h1>You are development mood</h1>
+      ) : (
+        <h2>You are Production mood</h2>
+      )}
+
       <h1 className="mt-5 text-center text-orange-600 text-3xl pb-4">
         Login Page
       </h1>
