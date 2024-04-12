@@ -4,6 +4,7 @@ import Script from "next/script";
 const LoginStudent = () => {
   return (
     <>
+      {/* script tag through scription code add */}
       <Script
         src="/location.js"
         onLoad={() => {

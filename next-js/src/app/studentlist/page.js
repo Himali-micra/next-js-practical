@@ -29,7 +29,6 @@ const students = [
 const StudentList = () => {
   //  client side component Api calling
   const [student, setStudentList] = useState([]);
-
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetch("https://dummyjson.com/users");

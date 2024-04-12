@@ -18,6 +18,7 @@ const AboutStudent = async () => {
         <>
           <p key={index}>Id: {item.id}</p>
           <p>UserName: {item.username}</p>
+
           {/* client side rendering */}
           <UserDetail Age={item.age} />
         </>
@@ -26,6 +27,7 @@ const AboutStudent = async () => {
   );
 };
 
+// add meta data in about page
 export function generateMetadata() {
   return {
     title: "student page",

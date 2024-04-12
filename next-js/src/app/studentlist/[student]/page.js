@@ -1,11 +1,12 @@
 "use client";
 import { useSearchParams } from "next/navigation";
-import { useRouter } from "next/router";
+
 
 export default function Student({ params, query }) {
   const { get } = useSearchParams();
   const name = get("name");
   const age = get("age");
+  
   //segment ways route
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
