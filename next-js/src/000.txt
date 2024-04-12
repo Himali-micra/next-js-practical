@@ -52,6 +52,8 @@ I have learn below topics
 12th April 2024
 work Update::
 ------------------------------------
-1. Static side Generation 
+1. Static side Generation with practical
 2. redirects (next.config.mjs)
 3. Environment
+4. API routes- make a Get Api with static data
+5. what is development,producation,and staging
